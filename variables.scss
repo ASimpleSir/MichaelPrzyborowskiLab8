@@ -1,0 +1,21 @@
+//typography
+$ulsize: 60px;
+$lisize: round($ulsize*.8);
+$ulfont: ARIAL;
+
+//colors
+$ulcolor: #f37a17;
+$licolor: complement($ulcolor);
+$licolordiff: invert($ulcolor);
+$bgcolorgrit: invert(grayscale($ulcolor));
+$bgcolorgr: mix($ulcolor, $bgcolorgrit, 20);
+$bgcolorborder: adjust-hue($bgcolorgr, 20);
+//wackycolors
+$licolorx: pink;
+$bgcolor: rgb(10, 235, 235);
+$bgcolorborderx: mix($licolorx, rgb(133, 3, 138));
+$lifontsize: 30px;
+//screensize
+$screen: 1000px;
+
+$psize: 50px;
